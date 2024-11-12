@@ -1,0 +1,151 @@
+\documentclass[11pt,a4paper,titlepage]{jsarticle}
+%
+\usepackage{amsmath,amssymb}
+\usepackage{bm}
+\usepackage{ascmac}
+\usepackage{empheq}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage[dvipdfmx]{color}
+\usepackage{float}
+\usepackage{siunitx}
+\usepackage{enumerate}
+\usepackage{booktabs}
+\usepackage{subcaption}
+\usepackage{autobreak}
+\usepackage{longtable}
+\usepackage{listings}
+%
+\setlength{\textwidth}{\fullwidth}
+\setlength{\textheight}{40\baselineskip}
+\addtolength{\textheight}{\topskip}
+\setlength{\voffset}{-0.2in}
+\setlength{\topmargin}{0pt}
+\setlength{\headheight}{0pt}
+\setlength{\headsep}{0pt}
+%
+\graphicspath{{./figure/}}
+%
+\everymath{\displaystyle}
+%
+\makeatletter
+\def\@maketitle{
+  \begin{flushright}
+    {\large \@date}
+  \end{flushright}
+  \par\vskip 1.5em
+  \begin{center}
+    {\LARGE \@title \par}
+  \end{center}
+  \par
+  \begin{flushright}
+    {\large \@author}
+  \end{flushright}
+  \par\vskip 1.5em
+}
+\makeatother
+%
+\makeatletter
+\newcommand{\figcaption}[1]{\def\@captype{figure}\caption{#1}}
+\newcommand{\tblcaption}[1]{\def\@captype{table}\caption{#1}}
+\makeatother
+%
+\newcommand{\divergence}{\mathrm{div}\,}  %ダイバージェンス
+\newcommand{\grad}{\mathrm{grad}\,}  %グラディエント
+\newcommand{\rot}{\mathrm{rot}\,}  %ローテーション
+\newcommand{\const}{\mathrm{const.}\,} %一定
+%
+\title{}
+\author{}
+\date{\today}
+%
+\begin{document}
+
+\section{品詞}
+
+\subsection{品詞の分類}
+
+\subsubsection{名詞（Noun）}
+名詞はモノやコトを表す品詞であり、文構造の骨格にかかわってくる品詞である。
+文構造の中ではS（主語）、O（目的語）を主に担い、場合によってはC（補語）を担うこともある。
+また、複数の単語が集まって名詞句や名詞節を形成すると、その塊で名詞としての役割を担うことがある。\\
+e.g., Apple, School, Pen
+
+\subsubsection{動詞（Verb）}
+動作や状態などを表す品詞であり、文構造の骨格にかかわってくる品詞である。
+文構造の中ではV（述語）を担う。\\
+e.g., take, have, live
+
+\subsubsection{助動詞（Auxiliary verb）}
+文字通り動詞の意味を補助する役割の品詞である。
+動詞とセットで意味を成す。\\
+e.g., can, will, must
+
+\subsubsection{形容詞（Adjective）}
+名詞（名詞句、名詞節）を修飾する品詞である。
+必ず紐づいている名詞がある。
+通常の限定用法では文構造の骨格にかかわってこないが、直接S（主語）を叙述するような叙述用法ではC（補語）を担う。\\
+e.g., beautiful, cool, high
+
+\subsubsection{副詞（Adverb）}
+名詞以外（主に動詞や文全体）を修飾する品詞である。
+文構造の骨格にかかわってくることはない。
+ある意味、ほかの分類に当てはまらないものが副詞と分類されていると言ってもよい。\\
+e.g., always, carefully, just
+
+\subsubsection{接続詞（Conjunction）}
+文と文をつないだり、節を導いたりする品詞である。\\
+e.g., and, but, if
+
+\subsubsection{前置詞（Preposition）}
+文字通り名詞の前に置いて関係を示す品詞である。\\
+e.g., in, on, of
+
+\subsubsection{冠詞（Article）}
+名詞の前に置いて、その名刺が特定のものかそうでないかを示す品詞である。\\
+e.g., a, an, the
+
+\subsubsection{間投詞（Interjection）}
+「わぁ」のように呼びかけを表したりする。\\
+e.g., wow, oh, ah
+
+\subsection{品詞決定の重要性}
+以下の表を見てみよう。
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{ccl}
+    \hline
+    品詞 & 意味 & \multicolumn{1}{c}{例文} \\
+    \hline \hline
+    名詞 & 背中、背後 & 
+    \begin{tabular}{l}
+      There is a bug on my back.\\
+      背中に虫がついている。
+    \end{tabular} \\
+    動詞 & 後援する & 
+    \begin{tabular}{l}
+      I back this politician.\\
+      私はこの政治家を後援している。
+    \end{tabular} \\
+    形容詞 & 後ろの & 
+    \begin{tabular}{l}
+      I entered by the back door.\\
+      私は裏口から中へ入った。
+    \end{tabular} \\
+    副詞 & 後ろに & 
+    \begin{tabular}{l}
+      I came back.\\
+      私は戻ってきた。
+    \end{tabular} \\
+    \hline
+  \end{tabular}
+\end{table}
+
+例ではbackを挙げたが、名詞・動詞・形容詞・副詞など、使い方が複数ある英単語は枚挙にいとまがない。
+例文のように単純明快な文章であればよいが、複雑な文章では、語順、近くの単語の形、文脈上のつながりなどを手掛かりにして、各単語の品詞を決定させなければならない。
+品詞の決定（特に動詞）を誤ると、文構造の把握は当然であるが、文の概要の把握にも失敗してしまう。
+入試問題で見かける難しい文章というのは、品詞決定しずらい単語を使ったり、入れ子構造を使ったり、転置や省略を多用したりして、巧みに難解な文章を作り上げている。
+このような文構造のトリックを看破できるようになれば、英語はもはや敵ではない。
+
+
+\end{document}
