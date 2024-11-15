@@ -1,4 +1,4 @@
 cd C:\Users\TakigawaSoha\Desktop\書類\English
 git add .
-git commit -m "comment"
+git commit -m "2024-11-16"
 git push origin master
