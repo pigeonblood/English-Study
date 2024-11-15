@@ -1,10 +1,10 @@
 # Fdb version 3
-["dvipdf"] 1731420093 "out/English_Study01.dvi" "out/English_Study01.pdf" "out/English_Study01" 1731420094
-  "out/English_Study01.dvi" 1731420093 5272 fcfb38b9b6b8eec61d495845408a3055 "latex"
+["dvipdf"] 1731676349 "out/English_Study01.dvi" "out/English_Study01.pdf" "out/English_Study01" 1731676350
+  "out/English_Study01.dvi" 1731676349 6788 dd35c8bc932bba11e6b7acf5ac8e6845 "latex"
   (generated)
   "out/English_Study01.pdf"
-["latex"] 1731420092 "English_Study01.tex" "out/English_Study01.dvi" "English_Study01" 1731420094
-  "English_Study01.tex" 1731420090 5367 0e09ba76102bfea631e5c4c28035fd25 ""
+["latex"] 1731676347 "English_Study01.tex" "out/English_Study01.dvi" "English_Study01" 1731676350
+  "English_Study01.tex" 1731676346 6488 f2c2a35f8bb31e44b6753fb8dd1c0649 ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1657295103 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm" 1657297116 468 53f854284f6afa6c36aaa2d1090ecc12 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm" 1657297116 468 53f854284f6afa6c36aaa2d1090ecc12 ""
@@ -86,7 +86,7 @@
   "c:/texlive/2022/texmf-dist/web2c/texmf.cnf" 1657293436 40171 cdab547de63d26590bebb3baff566530 ""
   "c:/texlive/2022/texmf-var/web2c/eptex/platex.fmt" 1657298622 2865352 cd9174cdeb07d9811b8c1f5ca5169779 ""
   "c:/texlive/2022/texmf.cnf" 1657298477 713 e69b156964470283e0530f5060668171 ""
-  "out/English_Study01.aux" 1731420093 1434 6be8657a0a153d1f8c0dec044cda30ac "latex"
+  "out/English_Study01.aux" 1731676349 1434 42aba6f6231ceed67af3ee6bd8156109 "latex"
   (generated)
   "out/English_Study01.aux"
   "out/English_Study01.dvi"
