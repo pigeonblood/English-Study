@@ -1,0 +1,105 @@
+
+
+\documentclass[12pt,a4paper,titlepage]{jsarticle}
+%
+\usepackage{amsmath,amssymb}
+\usepackage{bm}
+\usepackage{ascmac}
+\usepackage{empheq}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage[dvipdfmx]{color}
+\usepackage{float}
+\usepackage{siunitx}
+\usepackage{enumerate}
+\usepackage{booktabs}
+\usepackage{subcaption}
+\usepackage{autobreak}
+\usepackage{longtable}
+\usepackage{listings}
+%
+\SetSymbolFont{letters}{normal}{OT1}{cmr}{m}{n}
+\SetMathAlphabet{\mathnormal}{normal}{OT1}{cmr}{m}{n}
+%
+\setlength{\textwidth}{\fullwidth}
+\setlength{\textheight}{40\baselineskip}
+\addtolength{\textheight}{\topskip}
+\setlength{\voffset}{-0.2in}
+\setlength{\topmargin}{0pt}
+\setlength{\headheight}{0pt}
+\setlength{\headsep}{0pt}
+%
+\graphicspath{{./figure/}}
+%
+\everymath{\displaystyle}
+%
+\makeatletter
+\def\@maketitle{
+  \begin{flushright}
+    {\large \@date}
+  \end{flushright}
+  \par\vskip 1.5em
+  \begin{center}
+    {\LARGE \@title \par}
+  \end{center}
+  \par
+  \begin{flushright}
+    {\large \@author}
+  \end{flushright}
+  \par\vskip 1.5em
+}
+\makeatother
+%
+\makeatletter
+\newcommand{\figcaption}[1]{\def\@captype{figure}\caption{#1}}
+\newcommand{\tblcaption}[1]{\def\@captype{table}\caption{#1}}
+\makeatother
+%
+\newcommand{\divergence}{\mathrm{div}\,}  %ダイバージェンス
+\newcommand{\grad}{\mathrm{grad}\,}  %グラディエント
+\newcommand{\rot}{\mathrm{rot}\,}  %ローテーション
+\newcommand{\const}{\mathrm{const.}\,} %一定
+%
+\title{}
+\author{}
+\date{\today}
+%
+\begin{document}
+
+\setlength\lineskiplimit{30pt}
+\setlength\lineskip{30pt}
+
+\section*{Homework 2024-11-27}
+
+\section{要素分割}
+
+以下の例文を要素ごとに分割し、それぞれSVOCMに分類せよ。
+
+\begin{align}
+  &This ~ is ~ truly ~ a ~ legendary ~ diamond \text{.}\\
+  &Experienced ~ craftsmen ~ masterfully ~ create ~ exquisite ~ silverwork \text{.}\\
+  &She ~ is ~ clumsy ~ with ~ her ~ hands ~ and ~ often ~ makes ~ very ~ bad ~ food \text{.}\\
+  &He ~ proposes ~ expanding ~ nuclear ~ power ~ generation ~ from ~ an ~ energy ~ security ~ perspective \text{.}\\
+  &Many ~ high ~ school ~ students ~ in ~ science ~ courses ~ choose ~ geography ~ for ~ social ~ studies \text{.}\\
+  &
+  \begin{aligned}
+    &While ~ American ~ rockets ~ have ~ only ~ a ~ few ~ large ~ boosters\text{,} ~
+    Soviet ~ rockets ~ have ~ many\\ &small ~ boosters\text{.}
+  \end{aligned}
+\end{align}
+
+\newpage
+
+\section{和文英訳\&要素分割}
+
+以下の和文をすべて英訳したのち、要素ごとに分割し、それぞれSVOCMに分類せよ。
+
+\begin{enumerate}
+  \item 証人だけが真実を知っている。\\
+  \item イギリス人は皮肉を好む。\\
+  \item 保守思想がヨーロッパを支配する。\\
+  \item その計画は物理的に不可能だ。\\
+  \item 人は都合の悪い情報を無視する。\\
+  \item 天ぷらは日本の伝統的な料理だ。
+\end{enumerate}
+
+\end{document}
