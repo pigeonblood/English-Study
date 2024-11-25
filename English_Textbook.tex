@@ -1,0 +1,92 @@
+\documentclass[11pt,a4paper,titlepage]{jsarticle}
+%
+\usepackage{amsmath,amssymb}
+\usepackage{bm}
+\usepackage{ascmac}
+\usepackage{empheq}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage[dvipdfmx]{color}
+\usepackage{float}
+\usepackage{siunitx}
+\usepackage{enumerate}
+\usepackage{booktabs}
+\usepackage{subcaption}
+\usepackage{autobreak}
+\usepackage{longtable}
+\usepackage{listings}
+%
+\SetSymbolFont{letters}{normal}{OT1}{cmr}{m}{n}
+\SetMathAlphabet{\mathnormal}{normal}{OT1}{cmr}{m}{n}
+%
+\setlength{\textwidth}{\fullwidth}
+\setlength{\textheight}{40\baselineskip}
+\addtolength{\textheight}{\topskip}
+\setlength{\voffset}{-0.2in}
+\setlength{\topmargin}{0pt}
+\setlength{\headheight}{0pt}
+\setlength{\headsep}{0pt}
+%
+\graphicspath{{./figure/}}
+%
+\everymath{\displaystyle}
+%
+\makeatletter
+\def\@maketitle{
+  \begin{flushright}
+    {\large \@date}
+  \end{flushright}
+  \par\vskip 1.5em
+  \begin{center}
+    {\LARGE \@title \par}
+  \end{center}
+  \par
+  \begin{flushright}
+    {\large \@author}
+  \end{flushright}
+  \par\vskip 1.5em
+}
+\makeatother
+%
+\makeatletter
+\newcommand{\figcaption}[1]{\def\@captype{figure}\caption{#1}}
+\newcommand{\tblcaption}[1]{\def\@captype{table}\caption{#1}}
+\makeatother
+%
+\newcommand{\divergence}{\mathrm{div}\,}  %ダイバージェンス
+\newcommand{\grad}{\mathrm{grad}\,}  %グラディエント
+\newcommand{\rot}{\mathrm{rot}\,}  %ローテーション
+\newcommand{\const}{\mathrm{const.}\,} %一定
+%
+\newcommand{\us}[2]{\underset{#1}{\vphantom{|_|}#2}}
+\newcommand{\ub}[1]{\underbrace{#1}}
+\newcommand{\ur}[1]{\underbracket{#1}}
+%
+\title{}
+\author{}
+\date{\today}
+%
+\begin{document}
+
+\section{品詞}
+
+\input{files/01_Parts_of_Speech.tex}
+
+\section{要素と文型}
+
+\input{files/02_Elements_and_Sentence_Pattern.tex}
+
+\section{分詞と活用}
+
+\input{files/03_Participle_and_Conjugation.tex}
+
+\section{時制}
+
+\input{files/04_Tense.tex}
+
+\newpage
+
+\section*{Appendix}
+
+\input{./files/Appendix.tex}
+
+\end{document}
