@@ -1,12 +1,11 @@
 # Fdb version 3
-["dvipdf"] 1732968940 "out/English_Textbook.dvi" "out/English_Textbook.pdf" "out/English_Textbook" 1732968942
-  "out/English_Textbook.dvi" 1732968940 46216 a70a80749a6bd939022167e1e3ac3d9b "latex"
+["dvipdf"] 1732970640 "out/English_Homework_20241204.dvi" "out/English_Homework_20241204.pdf" "out/English_Homework_20241204" 1732970641
+  "out/English_Homework_20241204.dvi" 1732970640 2332 d12ff27eec29e409f49f2e47a8f840f8 "latex"
   (generated)
-  "out/English_Textbook.pdf"
-["latex"] 1732968939 "English_Textbook.tex" "out/English_Textbook.dvi" "English_Textbook" 1732968942
-  "English_Textbook.tex" 1732965345 2033 452aef18ba6bada0b05d216d620e7c5f ""
+  "out/English_Homework_20241204.pdf"
+["latex"] 1732970639 "English_Homework_20241204.tex" "out/English_Homework_20241204.dvi" "English_Homework_20241204" 1732970641
+  "English_Homework_20241204.tex" 1732970638 2947 01f88e3b7e605b1f86eded3e0965cea6 ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1657295103 3524 cb3e574dea2d1052e39280babc910dc8 ""
-  "c:/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1657294750 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm" 1657297116 468 53f854284f6afa6c36aaa2d1090ecc12 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm" 1657297116 468 53f854284f6afa6c36aaa2d1090ecc12 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm" 1657297116 856 7404843a5f798859944d7973a47821d5 ""
@@ -30,7 +29,6 @@
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm" 1657294254 1524 554068197b70979a55370e6c6495f441 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1657294254 1288 655e228510b4c2a1abe905c368440826 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr8.tfm" 1657294254 1292 21c1c5bfeaebccffdb478fd231a0997d ""
-  "c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmss10.tfm" 1657294254 1316 b636689f1933f24d1294acdf6041daaa ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmss12.tfm" 1657294254 1324 37b971caf729d7edd9cbb9f9b0ea76eb ""
   "c:/texlive/2022/texmf-dist/tex/generic/catchfile/catchfile.sty" 1657294108 8622 63834878edeb14dd71d58d8f22bc3e06 ""
   "c:/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.sty" 1657294894 7734 b98cbb34c81f667027c1e3ebdbfce34b ""
@@ -87,14 +85,8 @@
   "c:/texlive/2022/texmf-dist/web2c/texmf.cnf" 1657293436 40171 cdab547de63d26590bebb3baff566530 ""
   "c:/texlive/2022/texmf-var/web2c/eptex/platex.fmt" 1657298622 2865352 cd9174cdeb07d9811b8c1f5ca5169779 ""
   "c:/texlive/2022/texmf.cnf" 1657298477 713 e69b156964470283e0530f5060668171 ""
-  "figure//fig01.png" 1732270262 70647 5595cce2470be658b62aee9986425106 ""
-  "files/01_Parts_of_Speech.tex" 1732525650 3955 24e911863a01b458341b82303216c211 ""
-  "files/02_Elements_and_Sentence_Pattern.tex" 1732524937 8015 67e53d974e77916f600077f692ba3557 ""
-  "files/03_Participle_and_Conjugation.tex" 1732528044 5540 f1b5572a807343ccaedcc18d6d27f094 ""
-  "files/04_Tense.tex" 1732968938 13125 62ed514db1c89ff4bcd273dc4d556a9b ""
-  "files/Appendix.tex" 1732523345 1097 accbc94ff0a109fb2d13cfa67cc1ae5e ""
-  "out/English_Textbook.aux" 1732968940 5015 2d8006f6383b5f42016e924aff2da3de "latex"
+  "out/English_Homework_20241204.aux" 1732970640 346 80ca7ce38e37bcd210040b85ac1d1cf9 "latex"
   (generated)
-  "out/English_Textbook.aux"
-  "out/English_Textbook.dvi"
-  "out/English_Textbook.log"
+  "out/English_Homework_20241204.aux"
+  "out/English_Homework_20241204.dvi"
+  "out/English_Homework_20241204.log"

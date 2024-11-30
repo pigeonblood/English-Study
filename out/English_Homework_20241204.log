@@ -1,10 +1,10 @@
-This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.sjis) (TeX Live 2022) (preloaded format=platex 2022.7.9)  30 NOV 2024 21:15
+This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.sjis) (TeX Live 2022) (preloaded format=platex 2022.7.9)  30 NOV 2024 21:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**English_Textbook.tex
-(./English_Textbook.tex
+**English_Homework_20241204.tex
+(./English_Homework_20241204.tex
 pLaTeX2e <2021-11-15> (based on LaTeX2e <2022-06-01> patch level 5)
 L3 programming layer <2022-07-04> (c:/texlive/2022/texmf-dist/tex/platex/jsclasses/jsarticle.cls
 Document Class: jsarticle 2021/06/28 jsclasses (okumura, texjporg)
@@ -396,7 +396,7 @@ LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
 (Font)                  OML/cmm/m/it --> OT1/cmr/m/n on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathnormal' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmr/m/n on input line 19.
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 68.
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 64.
  (c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
 File: l3backend-dvips.def 2022-07-01 L3 backend support: dvips
 \l__pdf_internal_box=\box101
@@ -406,32 +406,32 @@ File: l3backend-dvips.def 2022-07-01 L3 backend support: dvips
 \g__pdf_backend_annotation_int=\count317
 \g__pdf_backend_link_int=\count318
 \g__pdf_backend_link_sf_int=\count319
-) (out/English_Textbook.aux)
-\openout1 = `English_Textbook.aux'.
+) (out/English_Homework_20241204.aux)
+\openout1 = `English_Homework_20241204.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
 \Hy@linkcounter=\count320
  (c:/texlive/2022/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 68.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 64.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
@@ -441,61 +441,45 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count321
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 70.
+(Font)              scaled to size 13.83836pt on input line 69.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 70.
+(Font)              scaled to size 13.83836pt on input line 69.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 70.
+(Font)              scaled to size 13.83836pt on input line 69.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 70.
- (./files/01_Parts_of_Speech.tex
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 1.
+(Font)              scaled to size 13.83836pt on input line 69.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 1.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 1.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 1.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 3.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 3.
- [1
-
-]
+(Font)              scaled to size 6.72699pt on input line 75.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 52.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 52.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 52.
+(Font)              scaled to size 4.805pt on input line 75.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 75.
  (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 52.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 75.
  (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 52.
+(Font)              scaled to size 9.60999pt on input line 75.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 4.805pt on input line 52.
-) (./files/02_Elements_and_Sentence_Pattern.tex [2]
+(Font)              scaled to size 6.72699pt on input line 75.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 4.805pt on input line 75.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 47.
+(Font)              scaled to size 6.72699pt on input line 86.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 47.
- [3] [4]) (./files/03_Participle_and_Conjugation.tex [5] [6]) (./files/04_Tense.tex
-File: ./figure//fig01.png Graphic file (type bmp)
-<./figure//fig01.png>
- [7] [8] [9] [10] [11]) [12] (./files/Appendix.tex) [13] (out/English_Textbook.aux) ) 
-Here is how much of TeX's memory you used:
- 11146 strings out of 478483
- 234613 string characters out of 5853965
- 524936 words of memory out of 5000000
- 29689 multiletter control sequences out of 15000+600000
- 482544 words of font info for 90 fonts, out of 8000000 for 9000
- 934 hyphenation exceptions out of 8191
- 71i,35n,77p,313b,524s stack positions out of 10000i,1000n,20000p,200000b,200000s
+(Font)              scaled to size 4.805pt on input line 86.
+ [1
 
-Output written on out/English_Textbook.dvi (13 pages, 46216 bytes).
+] [2] (out/English_Homework_20241204.aux) ) 
+Here is how much of TeX's memory you used:
+ 11094 strings out of 478483
+ 233582 string characters out of 5853965
+ 516925 words of memory out of 5000000
+ 29661 multiletter control sequences out of 15000+600000
+ 480548 words of font info for 81 fonts, out of 8000000 for 9000
+ 934 hyphenation exceptions out of 8191
+ 71i,16n,77p,322b,523s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on out/English_Homework_20241204.dvi (2 pages, 2332 bytes).
